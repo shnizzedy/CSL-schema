@@ -72,6 +72,8 @@ div {
     | "ISSN"
     | "jurisdiction"
     | "keyword"
+    | "license-name"
+    | "license-url"
     | "locator"
     | "medium"
     | "note"
