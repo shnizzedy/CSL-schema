@@ -1,22 +1,22 @@
 {
     "description": "JSON schema for CSL citation objects",
     "$schema" : "http://json-schema.org/draft-03/schema#",
-    "id": "https://github.com/shnizzedy/CSL-schema/raw/master/csl-citation.json",
+    "id": "https://github.com/citation-style-language/schema/raw/master/csl-citation.json",
     "type": "object",
     "properties": {
         "schema": {
             "type": "string",
             "required": true,
             "enum" : [
-                "https://github.com/shnizzedy/CSL-schema/raw/master/csl-citation.json"
-            ]
+                "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" 
+            ] 
         },
         "citationID": {
             "type": [
                 "string",
-                "number"
+                "number" 
             ],
-            "required": true
+            "required": true 
         },
         "citationItems": {
             "type": "array",
@@ -26,21 +26,21 @@
                     "id": {
                         "type": [
                             "string",
-                            "number"
+                            "number" 
                         ],
-                        "required": true
+                        "required": true 
                     },
                     "itemData": {
-                        "$ref": "csl-data.json/#/items"
+                        "$ref": "csl-data.json/#/items" 
                     },
                     "prefix": {
-                        "type": "string"
+                        "type": "string" 
                     },
                     "suffix": {
-                        "type": "string"
+                        "type": "string" 
                     },
                     "locator": {
-                        "type": "string"
+                        "type": "string" 
                     },
                     "label": {
                         "type": "string",
@@ -60,42 +60,42 @@
                             "section",
                             "sub verbo",
                             "verse",
-                            "volume"
-                        ]
+                            "volume" 
+                        ] 
                     },
                     "suppress-author": {
                         "type": [
                             "string",
                             "number",
-                            "boolean"
-                        ]
+                            "boolean" 
+                        ] 
                     },
                     "author-only": {
                         "type": [
                             "string",
                             "number",
-                            "boolean"
-                        ]
+                            "boolean" 
+                        ] 
                     },
                     "uris": {
                         "type": "array",
                         "items": {
-                            "type": "string"
-                        }
-                    }
+                            "type": "string" 
+                        } 
+                    } 
                 },
-                "additionalProperties" : false
-            }
+                "additionalProperties" : false 
+            } 
         },
         "properties": {
             "type": "object",
             "properties": {
                 "noteIndex": {
-                    "type": "number"
-                }
+                    "type": "number" 
+                } 
             },
-            "additionalProperties" : false
-        }
+            "additionalProperties" : false 
+        } 
     },
-    "additionalProperties" : false
+    "additionalProperties" : false 
 }
