@@ -1,5 +1,5 @@
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
-namespace cs = "http://purl.org/net/xbiblio/csl"
+namespace cs = "https://raw.githubusercontent.com/shnizzedy/CSL-schema/master/csl.rnc"
 namespace dc = "http://purl.org/dc/elements/1.1/"
 
 dc:title [ "Extension schema for the Citation Style Language styles repository" ]
