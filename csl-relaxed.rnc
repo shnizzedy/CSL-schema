@@ -1,4 +1,4 @@
-namespace cs = "https://raw.githubusercontent.com/shnizzedy/CSL-schema/master/csl.rnc"
+namespace cs = "http://purl.org/net/xbiblio/csl"
 namespace dc = "http://purl.org/dc/elements/1.1/"
 
 dc:title [ "Citation Style Language Schema - Relaxed" ]

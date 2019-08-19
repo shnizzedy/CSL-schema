@@ -1,6 +1,6 @@
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace bibo = "http://purl.org/ontology/bibo/"
-namespace cs = "https://raw.githubusercontent.com/shnizzedy/CSL-schema/master/csl.rnc"
+namespace cs = "http://purl.org/net/xbiblio/csl"
 namespace dc = "http://purl.org/dc/elements/1.1/"
 namespace sch = "http://www.ascc.net/xml/schematron"
 namespace xhtml = "http://www.w3.org/1999/xhtml"
@@ -21,7 +21,7 @@ dc:description [
 ]
 # Embedded Schematron rules to detect calls to nonexistent macros
 
-sch:ns [ uri = "https://raw.githubusercontent.com/shnizzedy/CSL-schema/master/csl.rnc" prefix = "cs" ]
+sch:ns [ uri = "http://purl.org/net/xbiblio/csl" prefix = "cs" ]
 sch:pattern [
   name = "Non-existing macros"
   sch:rule [
