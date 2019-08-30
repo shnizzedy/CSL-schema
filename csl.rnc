@@ -1,6 +1,6 @@
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace bibo = "http://purl.org/ontology/bibo/"
-namespace cs = "http://purl.org/net/xbiblio/csl"
+namespace cs = "https://shnizzedy.github.io/CSL-schema/csl.rng"
 namespace dc = "http://purl.org/dc/elements/1.1/"
 namespace sch = "http://www.ascc.net/xml/schematron"
 namespace xhtml = "http://www.w3.org/1999/xhtml"
