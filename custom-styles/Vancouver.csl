@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="https://shnizzedy.github.io/CSL-schema/csl.rnc" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="minimal">
+<style xmlns="https://shnizzedy.github.io/CSL-schema/csl.rng" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="minimal">
   <info>
     <title>Vancouver with licensing information</title>
     <id>https://github.com/ChildMindInstitute/zotero-styles/vancouver</id>

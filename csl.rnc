@@ -1,6 +1,6 @@
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace bibo = "http://purl.org/ontology/bibo/"
-namespace cs = "https://shnizzedy.github.io/CSL-schema/csl.rnc"
+namespace cs = "https://shnizzedy.github.io/CSL-schema/csl.rng"
 namespace dc = "http://purl.org/dc/elements/1.1/"
 namespace sch = "http://www.ascc.net/xml/schematron"
 namespace xhtml = "http://www.w3.org/1999/xhtml"
@@ -41,10 +41,10 @@ sch:pattern [
 ]
 
 ## Subparts of the CSL schema
-include "https://shnizzedy.github.io/CSL-schema/csl-terms.rnc"
-include "https://shnizzedy.github.io/CSL-schema/csl-types.rnc"
-include "https://shnizzedy.github.io/CSL-schema/csl-variables.rnc"
-include "https://shnizzedy.github.io/CSL-schema/csl-categories.rnc"
+include "csl-terms.rnc"
+include "csl-types.rnc"
+include "csl-variables.rnc"
+include "csl-categories.rnc"
 [
   a:documentation [
     xhtml:h2 [ "cs:style and cs:locale - Root Elements" ]
