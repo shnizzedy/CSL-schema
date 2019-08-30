@@ -21,7 +21,7 @@ dc:description [
 ]
 # Embedded Schematron rules to detect calls to nonexistent macros
 
-sch:ns [ uri = "http://purl.org/net/xbiblio/csl" prefix = "cs" ]
+sch:ns [ uri = "https://shnizzedy.github.io/CSL-schema/csl.rnc" prefix = "cs" ]
 sch:pattern [
   name = "Non-existing macros"
   sch:rule [
